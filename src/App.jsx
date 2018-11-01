@@ -20,14 +20,15 @@ class App extends Component {
 		this.socket.onopen = function (event) {
   		console.log("Connected to server.");
 		};
+		this.socket.onmessage = (m) => {
+  		const newMessage = JSON.parse(m.data);
+  		this.setState({messages: [...this.state.messages, newMessage]})
+		}
 	}
 
 	addMessage(message) {
 		message.id = uuidv4();
-		console.log(message);
 		this.socket.send(JSON.stringify(message)); 
-    // const messages = this.state.messages.concat(message)
-    // this.setState({messages});
 	}
 
   render() {
