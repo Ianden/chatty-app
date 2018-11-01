@@ -13,7 +13,7 @@ class ChatBar extends Component {
   		const newMessage = {
   			type: 'incomingMessage',
   			content: e.target.value,
-  			username: this.props.currentUser
+  			username: this.props.currentUser.name
   		}
      	this.props.addMessage(newMessage)
      	e.target.value = "";
@@ -21,7 +21,7 @@ class ChatBar extends Component {
 	}
 
 	render() {
-		const placeholderMessage = `Send a message as ${this.props.currentUser}`;
+		const placeholderMessage = `Send a message as ${this.props.currentUser.name}`;
 		return (
 			<footer className="chatbar">
   			<input className="chatbar-username" placeholder="Your Name (Optional)" />
