@@ -12,13 +12,14 @@ Broadly speaking, commands (referenced internally as ‘bots’) can do three th
 1. Send notifications (`/is`, `/id`),
 2. Transform messages (coming soon),
 3. Return information back to the sender (`/id`).
+
 They can be invoked from the chat like so:
 `/command_name command_argument`
 
 Currently, the list of available commands includes:
-`/id <new username>` — change username
-`/id <random>` — randomly generate a new username
-`/is <status>` — send a status notification to the chat
+- `/id <new username>` — change username
+- `/id <random>` — randomly generate a new username
+- `/is <status>` — send a status notification to the chat
 
 There are also additional commands that are used within the server, such as `/joined` for sending a new user status. These can technically be invoked from the chat as well, though that’s not supposed to happen.
 
