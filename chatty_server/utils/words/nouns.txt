@@ -204,7 +204,6 @@ bird
 birthday
 biscuit
 bishop
-bitch
 bite
 black
 blackmail
@@ -1965,7 +1964,6 @@ service
 session
 set
 settlement
-sex
 shade
 shadow
 shaft
