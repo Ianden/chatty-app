@@ -1,0 +1,35 @@
+{
+  "name": "chatty-server",
+  "version": "1.0.0",
+  "description": "Server conponent to chatty app",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "uuid": "^3.3.2",
+    "ws": "^6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ianden/chatty-app.git"
+  },
+  "keywords": [
+    "react",
+    "server",
+    "chat",
+    "express",
+    "websocket",
+    "websockets",
+    "uuid"
+  ],
+  "author": "Landen Danyluk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ianden/chatty-app/issues"
+  },
+  "homepage": "https://github.com/Ianden/chatty-app#readme"
+}
