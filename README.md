@@ -46,7 +46,7 @@ There are also additional commands that are used within the server, such as `/jo
 
 ## Getting Started
 1. Clone this repository
-2. Install dependences in both `app/` and `chatty_server` 
+2. Install dependences in both `app/` and `chatty_server/` 
 ```bash
 npm i
 ```
